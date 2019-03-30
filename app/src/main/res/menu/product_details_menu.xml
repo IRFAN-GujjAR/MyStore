@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/save_product_menu_item"
+        android:icon="@drawable/save_icon"
+        android:title="Save"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/order_product_menu_item"
+        android:title="Order Product"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/delete_product_menu_item"
+        android:title="Delete Product"
+        app:showAsAction="never" />
+</menu>

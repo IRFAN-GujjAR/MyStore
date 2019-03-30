@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">My Store</string>
+
+    <string name="product_in_stock">In Stock</string>
+    <string name="product_out_of_stock">Out Of Stock</string>
+
+    <!--Currencies Code-->
+    <string name="austrailian_dollar">AUD</string>
+    <string name="canadian_dollar">CAD</string>
+    <string name="euro">EUR</string>
+    <string name="indian_rupees">INR</string>
+    <string name="pakistan_rupees">PKR</string>
+    <string name="us_dollar">USD</string>
+    <string name="yuan_renminbi">CNY</string>
+
+    <!--Quantity Units-->
+    <string name="kilogram">kg</string>
+    <string name="gram">g</string>
+    <string name="pounds">lbs</string>
+    <string name="ounce">oz</string>
+    <string name="litre">L</string>
+    <string name="millilitre">mL</string>
+
+    <!--Title for Adding a Product-->
+    <string name="adding_product">Add a Product</string>
+
+    <!--Title for Editing product-->
+    <string name="editing_product">Edit Product</string>
+
+    <!--Creating Strings for AlertDialog For Back Button-->
+    <string name="alertDialogForBackButtonMessage">Discard changes and quit editing?</string>
+    <string name="alertDialogForBackButtonPositiveButton">Discard</string>
+    <string name="alertDialogForBackButtonNegativeButton">Keep Editing</string>
+
+    <!--Creating Strings for AlertDialog For Delete Product menu item-->
+    <string name="alertDialogForDeleteProductMenuItemMessage">Do you want to delete the product?</string>
+    <string name="alertDialogForDeleteProductMenuItemPositiveButton">Yes</string>
+    <string name="alertDialogForDeleteProductMenuItemNegativeButton">Cancel</string>
+
+    <!--Creating Strings for AlertDialog For Deleting all products-->
+    <string name="alertDialogForDeleteAllProductMessage">Do you want to delete all the products?</string>
+
+    <!--Sale DialogFragment-->
+    <string name="positive_button_for_sale_dialog_fragment">Sale</string>
+    <string name="negative_button_for_sale_dialog_fragment">Cancel</string>
+
+    <!--Order DialogFragment-->
+    <string name="positive_button_for_order_dialog_fragment">Order</string>
+    <string name="negative_button_for_order_dialog_fragment">Cancel</string>
+</resources>

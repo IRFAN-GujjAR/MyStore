@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="6dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/product_image_view"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:scaleType="centerCrop"
+                    tools:src="@drawable/placeholder" />
+
+                <TextView
+                    android:id="@+id/product_name_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_toRightOf="@id/product_image_view"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textAppearance="?android:textAppearanceLarge"
+                    tools:text="Product Name" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/ic_keyboard_arrow" />
+
+
+                <TextView
+                    android:id="@+id/unit_price_text_view_used_only_for_design_purpose"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/product_name_text_view"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_toRightOf="@id/product_image_view"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:text="Unit Price:"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/product_unit_price_number_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/product_name_text_view"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_toRightOf="@id/unit_price_text_view_used_only_for_design_purpose"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:textSize="16sp"
+                    tools:text="0" />
+
+                <TextView
+                    android:id="@+id/product_currency_code_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/product_name_text_view"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_toRightOf="@id/product_unit_price_number_text_view"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textSize="16sp"
+                    tools:text="USD" />
+
+                <TextView
+                    android:id="@+id/product_quantity_text_view_used_for_design_purpose"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/unit_price_text_view_used_only_for_design_purpose"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@id/product_image_view"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:text="Quantity:"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/product_quantity_number_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/unit_price_text_view_used_only_for_design_purpose"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@id/product_quantity_text_view_used_for_design_purpose"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:textSize="16sp"
+                    tools:text="0" />
+
+                <TextView
+                    android:id="@+id/product_quantity_unit_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/unit_price_text_view_used_only_for_design_purpose"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@id/product_quantity_number_text_view"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textSize="16sp"
+                    tools:text="Unit" />
+
+                <TextView
+                    android:id="@+id/product_availability_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/product_quantity_text_view_used_for_design_purpose"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_toRightOf="@id/product_image_view"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="20sp"
+                    tools:text="Out Of Stock" />
+
+                <ImageView
+                    android:id="@+id/product_sale_image_view"
+                    style="@style/Widget.AppCompat.Button"
+                    android:layout_width="70dp"
+                    android:layout_height="60dp"
+                    android:layout_below="@id/unit_price_text_view_used_only_for_design_purpose"
+                    android:layout_alignParentRight="true"
+                    android:backgroundTint="@color/colorAccentProductDetails"
+                    android:padding="7dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_sale"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"/>
+
+            </RelativeLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

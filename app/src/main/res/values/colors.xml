@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Default Colors for AppTheme-->
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <!--Colors For ProductDetails Activity-->
+    <color name="colorPrimaryProductDetails">#2D3640</color>
+    <color name="colorPrimaryDarkProductDetails">#394450</color>
+    <color name="colorAccentProductDetails">#00688b</color>
+
+    <!--Sale Dialog Title Background Color-->
+    <color name="saleDialogTitleBackgroundColor">#FFFFBB33</color>
+
+
+    <color name="floating_action_button_color">#C7451B</color>
+
+    <color name="sale_button_list_view_background_color">#773E3E</color>
+
+</resources>

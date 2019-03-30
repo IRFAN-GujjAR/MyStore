@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Product Availability Array-->
+    <string-array name="product_availability">
+        <item>@string/product_in_stock</item>
+        <item>@string/product_out_of_stock</item>
+    </string-array>
+
+    <!--Currency codes Array-->
+    <string-array name="currency_codes_array">
+        <item>@string/us_dollar</item>
+        <item>@string/austrailian_dollar</item>
+        <item>@string/canadian_dollar</item>
+        <item>@string/euro</item>
+        <item>@string/indian_rupees</item>
+        <item>@string/pakistan_rupees</item>
+        <item>@string/yuan_renminbi</item>
+    </string-array>
+
+    <!--Quantity Units Array-->
+    <string-array name="quanity_units_array">
+        <item>@string/kilogram</item>
+        <item>@string/gram</item>
+        <item>@string/pounds</item>
+        <item>@string/ounce</item>
+        <item>@string/litre</item>
+        <item>@string/millilitre</item>
+    </string-array>
+</resources>
