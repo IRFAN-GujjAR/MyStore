@@ -9,9 +9,7 @@ import android.net.Uri;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.CursorAdapter;
-import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -85,10 +83,8 @@ public class ProductAdapter extends CursorAdapter{
                 if(object.getmQuantity()>0){
                     ContentValues contentValues=new ContentValues();
                     contentValues.put(ProductContract.Product.COLUMN_PRODUCT_QUANTITY,object.getmQuantity()-1);
-                    int count=context.getContentResolver().update(updateUri,contentValues,selection,selectionArgs);
-                    if(count>0){
-                        Toast.makeText(context,"1 "+productQuantityUnit+" of "+productName+" sold!",Toast.LENGTH_SHORT).show();
-                    }
+                    context.getContentResolver().update(updateUri,contentValues,selection,selectionArgs);
+
                 }else {
                     Toast.makeText(context,productName+" is out of stock!",Toast.LENGTH_SHORT).show();
                 }
@@ -102,4 +98,5 @@ public class ProductAdapter extends CursorAdapter{
         }
 
     }
+
 }

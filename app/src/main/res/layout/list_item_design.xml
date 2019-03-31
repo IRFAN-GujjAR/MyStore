@@ -27,7 +27,7 @@
                     android:layout_marginLeft="5dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="5dp"
-                    android:scaleType="centerCrop"
+                    android:scaleType="fitXY"
                     tools:src="@drawable/placeholder" />
 
                 <TextView
@@ -59,7 +59,8 @@
                     android:layout_toRightOf="@id/product_image_view"
                     android:fontFamily="sans-serif-smallcaps"
                     android:text="Unit Price:"
-                    android:textSize="16sp" />
+                    android:textSize="16sp"
+                    android:textColor="@color/colorAccentProductDetails"/>
 
                 <TextView
                     android:id="@+id/product_unit_price_number_text_view"
@@ -71,7 +72,8 @@
                     android:layout_toRightOf="@id/unit_price_text_view_used_only_for_design_purpose"
                     android:fontFamily="sans-serif-smallcaps"
                     android:textSize="16sp"
-                    tools:text="0" />
+                    tools:text="0"
+                    android:textColor="@android:color/black"/>
 
                 <TextView
                     android:id="@+id/product_currency_code_text_view"
@@ -83,7 +85,8 @@
                     android:layout_toRightOf="@id/product_unit_price_number_text_view"
                     android:fontFamily="sans-serif-condensed"
                     android:textSize="16sp"
-                    tools:text="USD" />
+                    tools:text="USD"
+                    android:textColor="@android:color/black"/>
 
                 <TextView
                     android:id="@+id/product_quantity_text_view_used_for_design_purpose"
@@ -95,7 +98,8 @@
                     android:layout_toRightOf="@id/product_image_view"
                     android:fontFamily="sans-serif-smallcaps"
                     android:text="Quantity:"
-                    android:textSize="16sp" />
+                    android:textSize="16sp"
+                    android:textColor="@color/colorAccentProductDetails"/>
 
                 <TextView
                     android:id="@+id/product_quantity_number_text_view"
@@ -107,7 +111,8 @@
                     android:layout_toRightOf="@id/product_quantity_text_view_used_for_design_purpose"
                     android:fontFamily="sans-serif-smallcaps"
                     android:textSize="16sp"
-                    tools:text="0" />
+                    tools:text="0"
+                    android:textColor="@android:color/black"/>
 
                 <TextView
                     android:id="@+id/product_quantity_unit_text_view"
@@ -119,7 +124,8 @@
                     android:layout_toRightOf="@id/product_quantity_number_text_view"
                     android:fontFamily="sans-serif-condensed"
                     android:textSize="16sp"
-                    tools:text="Unit" />
+                    tools:text="Unit"
+                    android:textColor="@android:color/black"/>
 
                 <TextView
                     android:id="@+id/product_availability_text_view"
@@ -139,13 +145,13 @@
                     style="@style/Widget.AppCompat.Button"
                     android:layout_width="70dp"
                     android:layout_height="60dp"
-                    android:layout_below="@id/unit_price_text_view_used_only_for_design_purpose"
+                    android:layout_below="@id/product_name_text_view"
                     android:layout_alignParentRight="true"
                     android:backgroundTint="@color/colorAccentProductDetails"
                     android:padding="7dp"
                     android:scaleType="fitXY"
                     android:src="@drawable/ic_sale"
-                    android:layout_marginTop="5dp"
+                    android:layout_marginTop="25dp"
                     android:layout_marginRight="5dp"/>
 
             </RelativeLayout>
