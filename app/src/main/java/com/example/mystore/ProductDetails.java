@@ -111,6 +111,9 @@ public class ProductDetails extends AppCompatActivity implements LoaderManager.L
     //This is the variable which will contain the path of ProductImage File and we will store this address in database instead of files.
     private String mProductImagePath=null;
 
+    //This is the variable which will store the path of ImageFile which is loaded when user click on existing product
+    private String mPreviousImagePath=null;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -755,6 +758,11 @@ public class ProductDetails extends AppCompatActivity implements LoaderManager.L
 
         createProductImageFile();
 
+        if(mPreviousImagePath!=mProductImagePath){
+            File imageFile=new File(mPreviousImagePath);
+            imageFile.delete();
+        }
+
         String productImagePath = mProductImagePath;
         String productName = mProductName.getText().toString().trim();
 
@@ -1041,8 +1049,10 @@ public class ProductDetails extends AppCompatActivity implements LoaderManager.L
 
             mProductName.setText(productName);
 
+            mPreviousImagePath=productPicture;
             Bitmap bitmap=BitmapFactory.decodeFile(productPicture);
             mCaptureOrUploadBitmap=bitmap;
+
             mImageView.setImageBitmap(bitmap);
 
             mProductImagePath = productPicture;
