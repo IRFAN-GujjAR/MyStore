@@ -120,7 +120,7 @@
                     android:layout_height="wrap_content"
                     android:layout_below="@id/unit_price_text_view_used_only_for_design_purpose"
                     android:layout_marginLeft="10dp"
-                    android:layout_marginTop="5dp"
+                    android:layout_marginTop="3dp"
                     android:layout_toRightOf="@id/product_quantity_number_text_view"
                     android:fontFamily="sans-serif-condensed"
                     android:textSize="16sp"
@@ -152,7 +152,7 @@
                     android:scaleType="fitXY"
                     android:src="@drawable/ic_sale"
                     android:layout_marginTop="25dp"
-                    android:layout_marginRight="5dp"/>
+                    android:layout_marginRight="15dp"/>
 
             </RelativeLayout>
         </LinearLayout>
