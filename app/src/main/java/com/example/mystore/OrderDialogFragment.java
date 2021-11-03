@@ -4,10 +4,9 @@ import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.Context;
 import android.content.DialogInterface;
-import android.content.Intent;
 import android.os.Bundle;
-import android.provider.ContactsContract;
-import android.support.v7.app.AppCompatDialogFragment;
+
+import androidx.appcompat.app.AppCompatDialogFragment;
 import android.text.Editable;
 import android.text.TextUtils;
 import android.text.TextWatcher;
@@ -16,12 +15,8 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.example.mystore.data.ProductContainerForSingItem;
-import com.example.mystore.data.ProductContract;
-
-import org.w3c.dom.Text;
 
 import static com.example.mystore.data.ProductContainerForSingItem.formatUnitAndTotalPrice;
 
