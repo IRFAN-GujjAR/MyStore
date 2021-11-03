@@ -22,7 +22,8 @@
             android:theme="@style/ProductDetails"></activity>
         <activity
             android:name=".MyStore"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
