@@ -1,28 +1,12 @@
 My Store App
 ===================================
-Apk Link : https://drive.google.com/file/d/12L2vVvapL9bx1yMWwYnqzB4VM7nbvb6b/view?usp=sharing
 
-This app is a store app where you can add, manage, and delete products. This app uses sqlite database to store and
+MyStore is a native Java Android app in which you can add, manage, and delete products. This app uses sqlite database to store and
 manage products.
-
-Getting Started
----------------
-
-This sample uses the Gradle build system. To build this project, use the
-"gradlew build" command or use "Import Project" in Android Studio.
-
-This project was created by IRFAN GujjAR as part of the Android Basics Nanodegree (Free Program) At Udacity.
-
-As part of Udacity Honor code, your submissions must be your own work, hence
-submitting this project as yours will cause you to break the Udacity Honor Code
-and the suspension of your account.
-
-Me, the author of the project, allow you to check the code as a reference, but if
-you submit it, it's your own responsibility if you get expelled.
 
 License
 -------
-Copyright (c) 2019 IRFAN GujjAR
+Copyright (c) 2019 Muhammad Irfan Ali
 
         http://www.apache.org/licenses/LICENSE-2.0
 
