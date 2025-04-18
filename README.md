@@ -6,18 +6,18 @@ manage products.
 
 **App Screenshots**
                                   
-<img src="Images/1.png" width="367">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/2.png" width="367">
+<img src="Images/1.png" width="350">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/2.png" width="350">
 <br><br><br>
-<img src="Images/3.png" width="367">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/4.png" width="367">
+<img src="Images/3.png" width="350">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/4.png" width="350">
 <br><br><br>
-<img src="Images/5.png" width="367">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/6.png" width="367">
+<img src="Images/5.png" width="350">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/6.png" width="350">
 <br><br><br>
-<img src="Images/7.png" width="367">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/8.png" width="367">
+<img src="Images/7.png" width="350">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/8.png" width="350">
 <br><br><br>
-<img src="Images/9.png" width="367">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/10.png" width="367">
+<img src="Images/9.png" width="350">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/10.png" width="350">
 <br><br><br>
-<img src="Images/11.png" width="367">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/12.png" width="367">
+<img src="Images/11.png" width="350">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/12.png" width="350">
 <br><br><br>
-<img src="Images/13.png" width="367">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/14.png" width="367">
+<img src="Images/13.png" width="350">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/14.png" width="350">
 <br><br><br>
-<img src="Images/15.png" width="367">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/16.png" width="367">
+<img src="Images/15.png" width="350">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/16.png" width="350">
