@@ -3,9 +3,8 @@ My Store App
 
 MyStore is a native Java Android app in which you can add, manage, and delete products. This app uses sqlite database to store and
 manage products.
-                                        
-                                            App Images:
-                                        ====================
+
+***App Screenshots***
 ![](Images/1.png) ![](Images/2.png)
 ![](Images/3.png) ![](Images/4.png)
 ![](Images/5.png) ![](Images/6.png)
