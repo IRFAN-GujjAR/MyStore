@@ -6,7 +6,7 @@ manage products.
 
 **App Screenshots**
                                   
-<img src="Images/1.png" width="317">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/2.png" width="317">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/3.png" width="317">
+<img src="Images/1.png" width="367">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/2.png" width="367">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <br><br><br>
 <img src="Images/3.png" width="317">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/4.png" width="317">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/5.png" width="317">
 <br><br><br>
